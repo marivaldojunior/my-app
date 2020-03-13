@@ -20,41 +20,40 @@ export class KeyupComponent{
     this.values += (event.target as HTMLInputElement).value + ' | ';
   }
 }
-
 //////////////////////////////////////////
-
+/*
 @Component({
-  selector: 'app-key-up2',
+  selector: 'app-keyup',
   template: `
     <input #box (keyup)="onKey(box.value)">
     <p>{{values}}</p>
   `
 })
-export class KeyUpComponent_v2 {
+export class KeyupComponent {
   values = '';
   onKey(value: string) {
     this.values += value + ' | ';
   }
 }
-
+*/
 //////////////////////////////////////////
-
+/*
 @Component({
-  selector: 'app-key-up3',
+  selector: 'app-keyup',
   template: `
     <input #box (keyup.enter)="onEnter(box.value)">
     <p>{{value}}</p>
   `
 })
-export class KeyUpComponent_v3 {
+export class KeyupComponent {
   value = '';
   onEnter(value: string) { this.value = value; }
 }
-
+*/
 //////////////////////////////////////////
-
+/*
 @Component({
-  selector: 'app-key-up4',
+  selector: 'app-keyup',
   template: `
     <input #box
       (keyup.enter)="update(box.value)"
@@ -63,7 +62,8 @@ export class KeyUpComponent_v3 {
     <p>{{value}}</p>
   `
 })
-export class KeyUpComponent_v4 {
+export class KeyupComponent {
   value = '';
   update(value: string) { this.value = value; }
 }
+*/
