@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-click-me',
   template: `
     <button (click)="onClickMe()">Click me!</button>
-    {{clickMessage}}`
+    <h1>{{clickMessage}}</h1>`
 })
 export class ClickMeComponent {
   clickMessage = '';
