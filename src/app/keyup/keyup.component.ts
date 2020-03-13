@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-key-up1',
+  selector: 'app-keyup',
   template: `
     <input (keyup)="onKey($event)">
     <p>{{values}}</p>
   `
 })
-export class KeyUpComponent_v1 {
+export class KeyupComponent{
   values = '';
 
   /*
